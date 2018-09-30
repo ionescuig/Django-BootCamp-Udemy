@@ -1,0 +1,34 @@
+h1{
+  font-family: 'Poor Story', cursive;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+}
+
+td{
+  width: 8em;
+  height: 17em;
+  border: 0.2em solid white;
+}
+
+#one{
+  background-color: #247BA0;
+}
+
+#two{
+  background-color: #70C1B3;
+}
+
+#three{
+  background-color: #B2DBBF;
+}
+
+#four{
+  background-color: #F3FFBD;
+}
+
+#five{
+  background-color: #FF1654;
+}
