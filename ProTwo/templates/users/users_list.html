@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Users</title>
+  </head>
+  <body>
+    <h1>Users List</h1>
+    <p>{{ qs }}</p>
+
+
+    {% if users_list %}
+      <ol>
+        {% for user in users_list %}
+          <li>
+            User info:
+            <ul>
+              <li>First name: {{ user.first_name }}</li>
+              <li>Last name: {{ user.last_name }}</li>
+              <li>Email: {{ user.email }}</li>
+            </ul>
+          </li>
+        {% endfor %}
+      </ol>
+    {% else %}
+      <p>There are no users</p>
+    {% endif %}
+
+
+  </body>
+</html>
